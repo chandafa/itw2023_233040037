@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <style>
+    table, th, td {
+        padding: 10px;
+        border: 2px solid rgb(70, 70, 70);
+        border-collapse: collapse;
+    }
+    </style>
+</head>
+<body>
+    <table border="1">
+        <tr>
+            <td colspan=3" align="center" bgcolor="grey">INPUT DATA MAHASISWA</td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td>:</td>
+            <td>
+                <input type="text" name="Username">
+            </td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td>:</td>
+            <td>
+                <input type="password" name="password">
+            </td>
+        </tr>
+        <tr>
+            <td>Fullname</td>
+            <td>:</td>
+            <td>
+                <input type="text" name="Fullname">
+            </td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td>:</td>
+            <td>
+                <input type="text" name="Email">
+            </td>
+        </tr>
+        <tr>
+            <td>Agama</td>
+            <td>:</td>
+            <td>
+                <select>
+                    <option name="nama">--Pilih Agama--</option>
+                    <option value="Islam">Islam</option>
+                    <option value="Kristen">Kristen</option>
+                    <option value="Buddha">Buddha</option>
+                    <option value="Hindu">Hindu</option>
+                </select>
+            </td>
+        </tr>
+        <td>Jenis Kelamin</td>
+        <td>:</td>
+        <td>
+            <input type="radio" name="Kelamin" value="laki">laki - laki
+            <input type="radio" name="Kelamin" value="cewe">perempuan
+        </td>
+        <tr>
+            <td>Hobi</td>
+            <td>:</td>
+            <td>
+                <input type="checkbox">Musik
+                <input type="checkbox">Olahraga
+                <input type="checkbox">Gaming
+                <input type="checkbox">Lainya
+            </td>
+        </tr>
+        <tr>
+            <td>Profil singkat</td>
+            <td>:</td>
+            <td>
+                <textarea name="" cols="32" rows="5"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="3" align="right">
+                <input type="button" value="Submit">
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

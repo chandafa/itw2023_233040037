@@ -3,38 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Mahasiswa</title>
+    <title>Table</title>
+    <style>
+        table{
+            background-color: lightblue;
+        }
+        td{
+            padding: 10px;
+        }
+        .bold{
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <table width="50%" border="1" cellspacing="5" cellpadding="5" >
+    <table border="1">
         <tr>
-            <td colspan=10" align="center">Data Mahasiswa</td>
+            <td align="center" colspan="6" class="bold">Data Mahasiswa</td>
         </tr>
-
         <tr>
-            <td rowspan="2">No</td>
-            <td rowspan="2">NRP</td>
-            <td colspan="2">Nama</td>
-            <td rowspan="2">Alamat</td>
-            <td rowspan="2">No.Hp</td>
+            <td rowspan="2" align="center" class="bold">No</td>
+            <td rowspan="2" align="center" class="bold">NRP</td>
+            <td colspan="2" align="center" class="bold">Nama</td>
+            <td rowspan="2" align="center" class="bold">Alamat</td>
+            <td rowspan="2" align="center" class="bold">No.Hp</td>
         </tr>
-
         <tr>
-            <td>Nama Depan</td>
-            <td>Nama Belakang</td>
+            <td align="center" class="bold">Nama depan</td>
+            <td align="center" class="bold">Nama Belakang</td>
         </tr>
-
         <tr>
             <td>1</td>
             <td>113040001</td>
             <td>Asep</td>
             <td>Setia</td>
-            <td>Setiabudi</td>    
-            <td>081234567890</td>    
+            <td>Setiabudhi</td>
+            <td>081234567890</td>
         </tr>
-
-        
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">113040011</td>
+            <td rowspan="2">Dani</td>
+            <td rowspan="2">Gunawan</td>
+            <td rowspan="2">Lembang</td>
+            <td>089038131212</td>
+        </tr>
+        <tr>
+            <td>081392482222</td>
+        </tr>
     </table>
-    
 </body>
 </html>
