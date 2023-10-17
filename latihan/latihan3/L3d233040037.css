@@ -1,0 +1,47 @@
+body {
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-size: 100% 300px;
+    
+}
+
+p {
+    text-align: justify;
+    font-family: Georgia;
+}
+
+h1 {
+    font-family: Comic sans Ms;
+    font-size: 60px;
+    color: darkblue;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-style: italic;
+    font-family: Georgia;
+}
+
+h3 {
+    text-align: center;
+}
+
+h3 a {
+    color: red;
+}
+
+p a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.paraf1 {
+    color: orange;
+    text-align: center;
+}
+
+.paraf2 {
+    text-align: center;
+    line-height: 30px;
+}

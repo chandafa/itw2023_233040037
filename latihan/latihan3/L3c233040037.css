@@ -1,47 +1,25 @@
-body {
-    background-image: url('background.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+body{
+    background-color: aqua;
 }
-
-p {
-    text-align: justify;
-    font-family: Georgia;
-}
-
-h1 {
-    font-family: Comic sans Ms;
+.header{
+    font-family: Comic Sans MS;
+    text-align: center;
     font-size: 60px;
     color: darkblue;
-    text-align: center;
 }
-
-h4 {
-    text-align: center;
-    font-style: italic;
-    font-family: Georgia;
+.link{
+    color: white;
 }
-
-h3 {
-    text-align: center;
-}
-
-h3 a {
+a.sandika:hover{
     color: red;
 }
-
-p a {
-    text-decoration: none;
-    font-weight: bold;
+a.mark:hover{
+    background-color: darkblue;
 }
-
-.paraf1 {
+.right{
+    text-align: right;
+}
+.paragraf1{
     color: orange;
     text-align: center;
-}
-
-.paraf2 {
-    text-align: center;
-    line-height: 30px;
 }
