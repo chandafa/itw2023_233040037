@@ -1,0 +1,463 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  /*margin: 0;*/
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1.5;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Style */
+body{
+    
+    font: 16px/28px 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    background-image: url("../latihan3/img/pattern1.jpg");
+    color: #333;
+
+}
+.container{
+    width: 800px;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid skyblue;
+}
+.header{
+    padding: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+}
+.header .judul{
+    font-size: 40px;
+    font-weight: bold;
+}
+.header ul li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+}
+.header a{
+    text-decoration: none;
+    color: salmon;
+    padding: 3px 8px;
+    border-radius: 50px;
+    font-weight: bold;
+  
+}
+.header a:hover{
+    background-color: lightskyblue;
+    color: white;
+    padding: 4px 8px;
+    background-color: skyblue;
+}
+
+.profil{
+    width: 250px;
+    height: 250px;
+    background-image: url("../latihan3/img/profil.jpg");
+    background-repeat: no-repeat;
+    margin-bottom: 100px;
+    margin: 40px auto 50px auto;
+}
+
+#artikel {
+	font-size: 25px;
+	font-weight: 600;
+	margin-left: 340px;
+	display: inline-block;
+	padding: 10px 12px;
+	background-color: #aeaeae;
+	border-radius: 30px;
+}
+
+.hero1{
+    height: 300px;
+    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/10/21/partai-garuda-deklarasi-dukung-gibran-jadi-cawapres-prabowo-muliadetikcom_169.jpeg?w=700&q=90");
+    background-size: cover;
+	background-repeat: no-repeat;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid salmon;
+    border-left: 5px solid lightblue;
+    border-right: 5px solid lightblue;
+
+}
+.hero2{
+    height: 300px;
+    background-image: url("https://cdn0-production-images-kly.akamaized.net/lmf9y_F8Irh3WuM_MFT9fBMmgBQ=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4619031/original/059231400_1697886940-Screenshot_20231021-111554_WhatsApp.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid salmon;
+    border-left: 5px solid lightblue;
+    border-right: 5px solid lightblue;
+
+}
+.hero3{
+    height: 300px;
+    background-image: url("https://akcdn.detik.net.id/visual/2023/10/11/darah-bocah-gaza-terus-tumpah-membasahi-tanah-palestina-4_169.jpeg?w=650&q=90");
+    background-size: cover;
+	background-repeat: no-repeat;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid salmon;
+    border-left: 5px solid lightblue;
+    border-right: 5px solid lightblue;
+
+}
+.hero4{
+    height: 300px;
+    background-image: url("https://cdn0-production-images-kly.akamaized.net/FLHrZflZUKHA2_IXcbYbZ9Jccg8=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2349153/original/061932200_1535961585-IMG-201809034.jpg");
+    background-size: cover;
+	background-repeat: no-repeat;
+    border-bottom: 5px solid salmon;
+    border-top: 5px solid salmon;
+    border-left: 5px solid lightblue;
+    border-right: 5px solid lightblue;
+
+}
+.content{
+    padding: 20px;
+}
+
+.content h2{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.content .penulis{
+    font-size: 11px;
+    margin-top: -5px;
+}
+
+.content p {
+    margin-bottom: 20px;
+    font-size: 14px;
+	text-align: justify;
+}
+
+.content .penulis a{
+    color: salmon;
+    text-decoration: none;
+}
+.content p{
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.footer{
+    background-color: #333333;
+    padding: 10px;
+}
+.footer .copy{
+    color: #aeaeae;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* POP-UP*/
+
+	/* style untuk link popup */
+	a.popup-link {
+		padding:3px 0;
+		text-align: center;
+		margin: 3% auto;
+		position: relative;
+		width: 110px;
+		color: #fff;
+		text-decoration: none;
+		background-color: #FFBA00;
+		border-radius: 5px;
+		box-shadow: 0 5px 0px 0px #eea900;
+		display: block;
+	}
+	a.popup-link:hover {
+		background-color: #ff9900;
+		box-shadow: 0 3px 0px 0px #eea900;
+		-webkit-transition:all 1s;
+		-moz-transition:all 1s;
+		transition:all 1s;
+	}
+	/* end link popup*/
+
+	/*style untuk popup */	
+	#popup {
+		visibility: hidden;
+		opacity: 0;
+		margin-top: -200px;
+	}
+	#popup:target {
+		visibility:visible;
+		opacity: 1;
+		background-color: rgba(0,0,0,0.8);
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0;
+		z-index: 99999999999;
+		-webkit-transition:all 1s;
+		-moz-transition:all 1s;
+		transition:all 1s;
+	}
+
+	#popup1 {
+		visibility: hidden;
+		opacity: 0;
+		margin-top: -200px;
+	}
+	#popup1:target {
+		visibility:visible;
+		opacity: 1;
+		background-color: rgba(0,0,0,0.8);
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0;
+		z-index: 99999999999;
+		-webkit-transition:all 1s;
+		-moz-transition:all 1s;
+		transition:all 1s;
+	}
+
+	#popup2 {
+		visibility: hidden;
+		opacity: 0;
+		margin-top: -200px;
+	}
+	#popup2:target {
+		visibility:visible;
+		opacity: 1;
+		background-color: rgba(0,0,0,0.8);
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0;
+		z-index: 99999999999;
+		-webkit-transition:all 1s;
+		-moz-transition:all 1s;
+		transition:all 1s;
+	}
+
+	#popup3 {
+		visibility: hidden;
+		opacity: 0;
+		margin-top: -200px;
+	}
+	#popup3:target {
+		visibility:visible;
+		opacity: 1;
+		background-color: rgba(0,0,0,0.8);
+		position: fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:0;
+		z-index: 99999999999;
+		-webkit-transition:all 1s;
+		-moz-transition:all 1s;
+		transition:all 1s;
+	}
+
+
+	@media (min-width: 768px){
+		.popup-container {
+			width:600px;
+		}
+	}
+	@media (max-width: 767px){
+		.popup-container {
+			width:100%;
+		}
+	}
+	.popup-container {
+		position: relative;
+		margin:7% auto;
+		padding:30px 50px;
+		background-color: #fafafa;
+		color:#333;
+		border-radius: 3px;
+	}
+
+	a.popup-close {
+		position: absolute;
+		top:3px;
+		right:3px;
+		background-color: #333;
+		padding:7px 10px;
+		font-size: 20px;
+		text-decoration: none;
+		line-height: 1;
+		color:#fff;
+        border-radius: 20px;
+	}
+
+	/* style untuk isi popup */
+
+    .popup-form {
+		margin:10px auto;
+		
+	}
+		.popup-form h2 {
+			margin-bottom: 5px;
+			font-size: 37px;
+			text-transform: uppercase;
+		}
+		.popup-form .input-group {
+			margin:10px auto;
+			
+		}
+			.popup-form .input-group input {
+				padding:17px;
+				text-align: center;
+				margin: 10px auto;
+				border-radius:3px;
+				font-size: 16px; 
+				display: block;
+				width: 70%;
+				font-weight: bold;
+			}
+			.popup-form .input-group input:focus {
+				outline-color:#FB8833; 
+			}
+			.popup-form .input-group input[type="email"] {
+				border:0px;
+				position: relative;
+			}
+			.popup-form .input-group input[type="submit"] {
+				background-color: #FB8833;
+				color: #fff;
+				border: 0;
+				cursor: pointer;
+			}
+			.popup-form .input-group input[type="submit"]:focus {
+				box-shadow: inset 0 3px 7px 3px #ea7722;
+			}

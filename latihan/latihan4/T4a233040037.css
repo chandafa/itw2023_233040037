@@ -130,8 +130,10 @@ table {
 
 /* Style */
 body{
+    
     font: 16px/28px arial, sans-serif;
     background-color: #eaeaea;
+    background-image: url("../latihan3/img/pattern1.jpg");
     color: #333;
 
 }
@@ -139,6 +141,7 @@ body{
     width: 800px;
     margin: auto;
     background-color: #fff;
+    border: 1px solid black;
 }
 .header{
     padding: 20px;
@@ -170,6 +173,7 @@ body{
     background-position: 0 -180px;
     border-bottom: 5px solid lightskyblue;
     border-top: 5px solid salmon;
+
 }
 .content{
     padding: 20px;
