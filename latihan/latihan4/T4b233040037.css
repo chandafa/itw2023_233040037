@@ -195,8 +195,8 @@ body{
 }
 
 .hero1{
-    height: 300px;
-    background-image: url("https://akcdn.detik.net.id/community/media/visual/2023/10/21/partai-garuda-deklarasi-dukung-gibran-jadi-cawapres-prabowo-muliadetikcom_169.jpeg?w=700&q=90");
+    height: 400px;
+    background-image: url("img/hero1.jpeg");
     background-size: cover;
 	background-repeat: no-repeat;
     border-bottom: 5px solid salmon;
@@ -206,8 +206,8 @@ body{
 
 }
 .hero2{
-    height: 300px;
-    background-image: url("https://cdn0-production-images-kly.akamaized.net/lmf9y_F8Irh3WuM_MFT9fBMmgBQ=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/4619031/original/059231400_1697886940-Screenshot_20231021-111554_WhatsApp.jpg");
+    height: 400px;
+    background-image: url("img/hero2.jpeg");
     background-size: cover;
 	background-repeat: no-repeat;
     border-bottom: 5px solid salmon;
@@ -217,8 +217,8 @@ body{
 
 }
 .hero3{
-    height: 300px;
-    background-image: url("https://akcdn.detik.net.id/visual/2023/10/11/darah-bocah-gaza-terus-tumpah-membasahi-tanah-palestina-4_169.jpeg?w=650&q=90");
+    height: 400px;
+    background-image: url("img/hero3.jpeg");
     background-size: cover;
 	background-repeat: no-repeat;
     border-bottom: 5px solid salmon;
@@ -228,8 +228,8 @@ body{
 
 }
 .hero4{
-    height: 300px;
-    background-image: url("https://cdn0-production-images-kly.akamaized.net/FLHrZflZUKHA2_IXcbYbZ9Jccg8=/640x360/smart/filters:quality(75):strip_icc():format(webp)/kly-media-production/medias/2349153/original/061932200_1535961585-IMG-201809034.jpg");
+    height: 400px;
+    background-image: url("img/hero4.jpeg");
     background-size: cover;
 	background-repeat: no-repeat;
     border-bottom: 5px solid salmon;
@@ -248,8 +248,9 @@ body{
 }
 
 .content .penulis{
-    font-size: 11px;
+    font-size: 12px;
     margin-top: -5px;
+	font-weight: bold;
 }
 
 .content p {
@@ -276,6 +277,13 @@ body{
     font-size: 12px;
 }
 
+h3 a {
+	text-decoration: none;
+}
+
+h3 a:hover {
+	color: salmon;
+}
 
 /* POP-UP*/
 
