@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pertemuan 7 - CSS 3</title>
-    <style>
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>pertemuan 7 - CSS 3</title>
+   <style>
       .kotak {
          width: 150px;
          height: 150px;
@@ -19,7 +20,8 @@
       }
 
       .kotak:hover {
-         background-color: black;
+         background-image: url(logo.png);
+         background-size: cover;
          border-radius: 50px;
          box-shadow: 10px 10px 5px 8px blue, -10px -10px 5px 8px green, 10px -10px 5px 8px red, -10px 10px 5px 8px yellow;
          animation: 1s;
@@ -50,15 +52,12 @@
             }
         }
 
-        .putar-kiri {
+   </style>
+</head>
 
-        }
-    </style>
-  </head>
+<body>
+   <div class="kotak">
+   </div>
+</body>
 
-  <body>
-    <div class="kotak">
-      <img src="logo.png" alt="Dunia Proramming" class="putar-kiri" width="150px" />
-    </div>
-  </body>
 </html>
