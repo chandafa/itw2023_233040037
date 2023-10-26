@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>pertemuan 7 - CSS 3</title>
+    <style>
+      .kotak {
+         width: 150px;
+         height: 150px;
+         background-color: skyblue;
+         margin: 50px auto;
+         border-radius: 20px;
+         /* border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
+         border-bottom-left-radius: 50px;
+         border-bottom-right-radius: 50px; */
+         /* box-shadow: none|h-offset v-offset blur spread color |inset|initial|inherit; */
+      }
+
+      .kotak:hover {
+         background-color: black;
+         border-radius: 50px;
+         box-shadow: 10px 10px 5px 8px blue, -10px -10px 5px 8px green, 10px -10px 5px 8px red, -10px 10px 5px 8px yellow;
+         animation: 1s;
+         transition: 1s;
+         rotate: 30deg;
+         -moz-animation: rota-full-left 20s infinite linear;
+         -webkit-animation: rota-full-left 20s infinite linear;
+         animation-delay: 1s;
+      }
+
+      @-moz-keyframes rota-full-left {
+            0% {
+                -moz-transform: rotate(0deg);
+            }
+
+            100% {
+                -moz-transform: rotate(-360deg);
+            }
+        }
+
+        @-webkit-keyframes rota-full-left {
+            0% {
+                -webkit-transform: rotate(0deg);
+            }
+
+            100% {
+                -webkit-transform: rotate(-360deg);
+            }
+        }
+
+        .putar-kiri {
+
+        }
+    </style>
+  </head>
+
+  <body>
+    <div class="kotak">
+      <img src="logo.png" alt="Dunia Proramming" class="putar-kiri" width="150px" />
+    </div>
+  </body>
+</html>
