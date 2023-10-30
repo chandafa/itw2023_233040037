@@ -1,0 +1,181 @@
+/* font */
+@font-face {
+    font-family: 'Bebas';
+    src: url(../font/Bebas-Regular.ttf) format('ttf');
+}
+
+/* Style Utama */
+body{
+    background-color: #ddd;
+    font: 18px/36px 'Bebas';
+}
+h1{
+    font-size: 80px;
+    margin: 50px 0px;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+}
+.container{
+    width: 600px;
+    background-color: white;
+    margin: auto;
+    padding: 30px;
+    box-shadow: 0 0 3px 3px rgb(255, 0, 0);
+    border-radius: 5px;
+    animation: RGB 2.5s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate;
+}
+.galery li{
+    width: 120px;
+    height: 120px;
+    border: 5px solid #666;
+    float: left;
+    margin-right: 20px;
+    position: relative;
+}
+.galery li,
+.galery li span,
+.galery li img{
+    border-radius: 50%;
+}
+.galery li span{
+    display: block;
+    width: 120px;
+    height: 120px;
+    background-color: rgba(200, 200, 200, 0.5);
+    position: absolute;
+    top: 0;
+    text-align: center;
+    line-height: 120px;
+    color: #333;
+    text-shadow: 1px 1px 1px #ddd;
+    opacity: 0;
+    transform: scale(0) rotate(0);
+    transition: .4s;
+}
+.galery li a:hover span{
+    opacity: 1;
+    transform: scale(1) rotate(360deg);
+}
+.clear{
+    clear: both;
+}
+/* Overlay */
+.overlay{
+    width: 0;
+    height: 0;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0);
+    z-index: 99999;
+    text-align: center;
+    padding: 100px;
+    border: 0;
+}
+.overlay:target{
+    animation: Fade .5s;
+    width: auto;
+    height: auto;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, .7);
+}
+.overlay img{
+    max-height: 100%;
+    box-shadow: 2px 2px 70px rgba(0, 0, 0, 1);
+    border: 0;
+}
+.overlay:target img{
+    animation: zoomRotateFade .5s;
+    border-radius: 1%;
+    border: 10px solid white;
+}
+.overlay .close{
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -25px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: 1px solid white;
+    padding: 5px;
+    line-height: 14px;
+    opacity: 0;
+    border-radius: 5px;
+}
+.overlay:target .close{
+     animation: slideDownFade .5 .5s forwards;
+}
+.overlay:target .next,
+.overlay:target .prev{
+    animation: Fade .5 .5s forwards;
+}
+/* Nav */
+
+.next, .prev{
+    width: 57px;
+    height: 93px;
+    background-image: url(../img/Next.png);
+    position: absolute;
+    text-indent: -9999px;
+    top: 45%;
+    margin-left: 50px;
+    opacity: 0;
+}
+
+.prev{
+    background-image: url(../img/Prev.png);
+    margin-left: -100px;
+}
+
+/* Animasi */
+
+@keyframes Fade{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes zoomRotateFade{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+        rotate: 360deg;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+        rotate: 0deg;
+    }
+}
+
+@keyframes slideDownFade{
+        0%{
+            opacity: 0;
+            margin-top: -20px;
+        }
+        100%{
+            opacity: 1;
+            margin-top: 0;
+        }
+}
+@keyframes RGB{
+    /* animation: RGB 2s .5s infinite cubic-bezier(1,.015,.295,1.225) alternate; */
+    0%{
+        box-shadow: 0 0 3px 3px rgb(255, 0, 0);
+    }
+    33%{
+        box-shadow: 0 0 3px 3px rgb(0, 255, 0);
+    }
+    66%{
+        box-shadow: 0 0 3px 3px rgb(0, 0, 255);
+    }
+    100%{
+        box-shadow: 0 0 3px 3px rgb(255, 0, 0);
+    }
+}
