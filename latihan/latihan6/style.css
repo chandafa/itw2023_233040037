@@ -5,8 +5,7 @@
 
 body {
     font-family: 'Poppins';
-    background-image: url(img/bg-pp.gif);
-    background-repeat: no-repeat;
+    background-color: #7267cb;
     overflow: hidden;
 }
 
